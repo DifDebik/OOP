@@ -1,8 +1,8 @@
-from item import Item
+from phone import Phone
+from keyboard import Keyboard
 
+item1 = Keyboard("jscKeyboard", 1000, 3)
 
-item1 = Item("MyItem", 750)
+item1.apply_discount()
 
-item1.name = "OtherItem321"
-
-print(item1.name)
+print(item1.price)
